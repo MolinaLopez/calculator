@@ -51,7 +51,7 @@ button {
 }
 
 button:hover {
-  background-color: rgb(165, 161, 161);
+  background-color: rgb(234, 234, 234);
 }
 
 * {
@@ -62,7 +62,7 @@ button:hover {
 
 body {
   font-family: sans-serif;
-  background-color: rgb(120, 49, 49);
+  background-color: rgb(41, 41, 41);
 }
 
 #container {
@@ -96,7 +96,7 @@ body {
 }
 
 #operators button:hover {
-  background-color: rgb(165, 161, 161);
+  background-color: rgb(191, 191, 191);
 }
 
 #main-box {
