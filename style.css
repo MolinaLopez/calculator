@@ -56,6 +56,8 @@ button:hover {
 
 * {
   box-sizing: border-box;
+  font-size: 26px;
+  color: rgb(53, 53, 53);
 }
 
 body {
