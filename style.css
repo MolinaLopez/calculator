@@ -1,0 +1,132 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* MY EDITS BELOW */
+
+button {
+  width: 125px;
+  background-color: rgb(244, 241, 241);
+  border: 1px solid rgb(161, 160, 160);
+}
+
+button:hover {
+  background-color: rgb(165, 161, 161);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: rgb(120, 49, 49);
+}
+
+#container {
+  width: 500px;
+  height: 600px;
+  margin: auto;
+  margin-top: 60px;
+}
+
+#display {
+  background-color: rgb(25, 25, 25);
+  color: white;
+  height: 20%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 5%;
+  font-size: 50px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+#operators {
+  height: 16%;
+  display: flex;
+}
+
+#operators button {
+  flex-grow: 1;
+  background-color: rgb(206, 203, 203);
+}
+
+#operators button:hover {
+  background-color: rgb(165, 161, 161);
+}
+
+#main-box {
+  height: 64%;
+  display: flex;
+}
+
+#number-box {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.numbers {
+  flex-grow: 1;
+  display: flex;
+}
+
+.numbers button {
+  flex-grow: 1;
+}
+
+#equals-box {
+  display: flex;
+}
+
+#equals-box button {
+  justify-self: flex-end;
+  border-bottom-right-radius: 12px;
+  background-color: rgb(240, 159, 9);
+}
+
+#zero {
+  border-bottom-left-radius: 12px;
+}
